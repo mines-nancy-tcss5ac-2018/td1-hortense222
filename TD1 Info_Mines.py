@@ -43,9 +43,9 @@ def solve55():
     L=[]
     while n < 10000:
         n+=1
-        p=0
         s=n
         s=s+reverse(s)
+        p=1
         while p < 50 and s!= reverse(s):
             s=s+reverse(s)
             p+=1
